@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/font.otf') format('truetype');
+  }
+  
+  body {
+    font-family: 'CustomFont', Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  #wordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    height: 300px;
+  }
+  
+  .box {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #888888;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .goldBorder {
+    border: 2px solid gold;
+  }
+  
+  input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'CustomFont', Arial, sans-serif; 
+    font-size: 20px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  .red { background-color: #e3364b; }
+  .orange { background-color: #f5734c; }
+  .yellow { background-color: #f5db4c; }
+  .green { background-color: #acf54c; }
+  .blue { background-color: #4ca3f5; }
+  .purple { background-color: #a34cf5; }
+  .pink { background-color: #eba2de; }
+  
+  .color-mode .box {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
